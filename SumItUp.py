@@ -57,7 +57,7 @@ def plot_data(ang, inten):
     plt.xlim([min(ang) - 5, max(ang) + 5])
     plt.axvline(x = min_vl, color = 'g', label = 'Min Val =' + str(min_vl));
     plt.axvline(x = max_vl, color = 'r', label = 'Max Val =' + str(max_vl));
-    plt.title('shit')
+    plt.title('Polarimeter V5')
     plt.legend()
 
     manager = plt.get_current_fig_manager()
